@@ -1,5 +1,5 @@
 # youtubed
-Webapp that lets you download you download youtube videos and playlists.
+Webapp that lets you download youtube videos and playlists.
 
-Preview
+Preview :
 http://youtubedo.herokuapp.com/
