@@ -22,13 +22,13 @@
     border:2px solid crimson;
 }
 .convert-button {
-    border-radius:0px 4px 4px 0px;
+    /* border-radius:0px 4px 4px 0px; */
     border:2px solid crimson;
     background: crimson;
     color:white;
 }
 .convert-button:hover {
-    border-radius:0px 4px 4px 0px;
+    /* border-radius:0px 4px 4px 0px; */
     border:2px solid crimson;
     background: white;
     color:crimson;
@@ -57,13 +57,13 @@
     color: crimson;
     margin-top: 3rem;
 }
-.about-p{
-    margin-bottom: 21rem;
-}
 
-.footer{
-    /* margin-top: 13rem; */
+
+.footer-c{
     color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 .footer-inner{
@@ -84,3 +84,8 @@
 .footer-link:hover{
     color: black;
 }
+.form-signin {
+    width: 60%;
+    padding: 15px;
+    margin: auto;
+  }

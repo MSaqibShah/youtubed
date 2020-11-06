@@ -114,9 +114,7 @@ app.listen(port, () => {
   console.log('Server is working');
 });
 
+app.get('*', function(req, res){
+  res.status(404).render('not-found');
+});
 
-// app.get('/try',(req,res)=> {
-//   res.render('single', {title:'This is a video title', url: 'https://' ,  width_s: '168',
-//   height_s: '94', url_i: 'https://i.ytimg.com/vi/_8gHHBlbziw/maxresdefault.jpg' ,  width_l: '336',
-//   height_l: '188' })
-// });
