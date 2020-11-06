@@ -1,0 +1,86 @@
+* {
+    text-align: center;
+}
+.heading {
+    font-family: Arial;
+    margin-top:13rem;
+}
+.URL-input, .convert-button {
+    font-size:1.3em;
+    padding:5px 10px;
+}
+.URL-input {
+    border-radius:4px 0px 0px 4px;
+    width:30em;
+    text-align: left;
+    border:2px solid #EEEEEE;
+    background: #EEEEEE;
+    outline:none;
+    margin-bottom: 13rem;
+}
+.URL-input:focus {
+    border:2px solid crimson;
+}
+.convert-button {
+    border-radius:0px 4px 4px 0px;
+    border:2px solid crimson;
+    background: crimson;
+    color:white;
+}
+.convert-button:hover {
+    border-radius:0px 4px 4px 0px;
+    border:2px solid crimson;
+    background: white;
+    color:crimson;
+}
+
+.n {
+    background-color: crimson;
+}
+.c {
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.b {
+    border: none;
+    background-color: crimson;
+    color: white;
+}
+.b:hover{
+    border:2px solid crimson;
+    background: white;
+    color:crimson;
+}
+
+.about-heading{
+    color: crimson;
+    margin-top: 3rem;
+}
+.about-p{
+    margin-bottom: 20rem;
+}
+
+.footer{
+    /* margin-top: 13rem; */
+    color: white;
+}
+
+.footer-inner{
+    padding: 2.5rem 0 2.5rem 0;
+    background-color: crimson;
+}
+.footer-text{
+    margin-bottom: 0;   
+}
+
+.footer-link{
+    display: inline;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-link:hover{
+    color: black;
+}

@@ -1,0 +1,29 @@
+<%- include('header'); -%>
+
+<div class="container">
+    <div class="card text-center c" >
+        <div class="card-body">
+          <h2 class="card-title">Download Full Playlist</h2>
+          <form method="POST">  
+            <button type="submit"  name="vids" value=<%- JSON.stringify(vids) %> class="btn b">Download All</button>
+        </form>
+        </div>
+      </div>
+</div> 
+
+<% vids.forEach(vid => {  %>
+    <div class="container">
+        <div class="card text-center c" >
+            <img src="<%= vid.url_i %>" class="card-img-top w-75 text-center" alt="thumbnail">
+            <div class="card-body">
+              <h2 class="card-title"><%= vid.title %></h2>
+              <form method="POST" action="/single">  
+                
+                <button type="submit" name="url" value=<%= vid.url %> class="btn b">Download</button>
+            </form>
+            </div>
+          </div>
+    </div> 
+<% }); %>
+
+<%- include('footer'); -%>

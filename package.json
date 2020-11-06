@@ -1,0 +1,21 @@
+{
+  "name": "ytd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MSaqibShah",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^5.0.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "ytdl-core": "^4.0.2",
+    "ytpl": "^1.0.1"
+  }
+}

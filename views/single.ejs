@@ -1,0 +1,15 @@
+<%- include('header'); -%>
+
+    <div class="container">
+        <div class="card text-center c" >
+            <img src="<%= url_i %>" class="card-img-top w-75 text-center" alt="thumbnail">
+            <div class="card-body">
+              <h2 class="card-title"><%= title %></h2>
+              <form method="POST">  
+                <button type="submit" name="url" value="<%= url %>" class="btn b">Download</button>
+            </form>
+            </div>
+          </div>
+    </div> 
+
+<%- include('footer'); -%>
