@@ -103,13 +103,17 @@ app.post("/playlist",(req,res)=>{
 app.get("/about",(req,res)=>{
   res.render('about');
 })
+
+
+
+
 app.listen(4000, () => {
   console.log('Server Works !!! At port 4000');
 });
 
 
-app.get('/try',(req,res)=> {
-  res.render('single', {title:'This is a video title', url: 'https://' ,  width_s: '168',
-  height_s: '94', url_i: 'https://i.ytimg.com/vi/_8gHHBlbziw/maxresdefault.jpg' ,  width_l: '336',
-  height_l: '188' })
-});
+// app.get('/try',(req,res)=> {
+//   res.render('single', {title:'This is a video title', url: 'https://' ,  width_s: '168',
+//   height_s: '94', url_i: 'https://i.ytimg.com/vi/_8gHHBlbziw/maxresdefault.jpg' ,  width_l: '336',
+//   height_l: '188' })
+// });
