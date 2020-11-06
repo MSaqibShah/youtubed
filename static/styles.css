@@ -5,28 +5,14 @@
     font-family: Arial;
     margin-top:13rem;
 }
-.URL-input, .convert-button {
+.convert-button {
     font-size:1.3em;
     padding:5px 10px;
-}
-.URL-input {
-    border-radius:4px 0px 0px 4px;
-    width:30em;
-    text-align: left;
-    border:2px solid #EEEEEE;
-    background: #EEEEEE;
-    outline:none;
-    margin-bottom: 13rem;
-}
-.URL-input:focus {
-    border:2px solid crimson;
-}
-.convert-button {
-    /* border-radius:0px 4px 4px 0px; */
     border:2px solid crimson;
     background: crimson;
     color:white;
 }
+
 .convert-button:hover {
     /* border-radius:0px 4px 4px 0px; */
     border:2px solid crimson;
@@ -58,7 +44,6 @@
     margin-top: 3rem;
 }
 
-
 .footer-c{
     color: white;
     position: fixed;
@@ -85,7 +70,51 @@
     color: black;
 }
 .form-signin {
-    width: 60%;
+    width: 100%;
     padding: 15px;
     margin: auto;
   }
+
+
+.form-signin:focus {
+    border:2px solid crimson;
+}
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.out{
+    position: relative;
+}
+.in{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+}
+
+@media (max-width:1010px){
+    .in{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+    }
+}
+
+@media (max-width:210px){
+    .in{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+    }
+}
